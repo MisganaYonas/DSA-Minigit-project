@@ -1,1 +1,1 @@
-This is my Minigit project
+This is my minigit project
