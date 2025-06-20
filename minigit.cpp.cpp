@@ -1,7 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <ctime>
-#include <string>
+
 #include "minigit.h"
 
 
