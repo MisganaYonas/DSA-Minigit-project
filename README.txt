@@ -1,1 +1,4 @@
-This is my minigit project
+# Info from main branch
+
+# Your additions from your branch
+
