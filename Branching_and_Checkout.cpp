@@ -1,3 +1,9 @@
+#include <iostream>
+#include <fstream>
+#include <string>
+#include "minigit.h"  // Add this to get function declarations
+using namespace std;
+
 // Create a new branch pointing to current HEAD commit
 void createBranch(const string& branchName) {
     string currentCommit = getLastCommitId();
