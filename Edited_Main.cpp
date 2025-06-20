@@ -1,4 +1,4 @@
-int main() {
+/* int main() {
     ensureFoldersExist();
 
     string command;
@@ -33,4 +33,4 @@ int main() {
     }
 
     return 0;
-}
+} */
