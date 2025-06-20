@@ -2,6 +2,7 @@
 #include <fstream>
 #include <string>
 #include <filesystem>
+#include "minigit.h"
 using namespace std;
 namespace fs = std::filesystem;
 void ensureFoldersExist(); // Ensures .minigit folders exist
