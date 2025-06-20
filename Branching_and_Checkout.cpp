@@ -1,4 +1,15 @@
-#include "minigit.h"  // Add this to get function declarations
+#ifndef MINIGIT_H
+#define MINIGIT_H
+
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <map>
+#include <set>
+#include <queue>
+#include <filesystem>
+#include <ctime>
 using namespace std;
 
 // Create a new branch pointing to current HEAD commit
