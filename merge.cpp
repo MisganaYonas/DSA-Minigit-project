@@ -1,12 +1,4 @@
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <string>
-#include <map>
-#include <set>
-#include <queue>
-#include <filesystem>
-#include <ctime>
+
 #include "minigit.h"
 
 namespace fs = std::filesystem;
