@@ -24,7 +24,7 @@ string getLastCommitId (){
 }
 
 //function to updatte the Head.txt with the new commit id
-void updateHEAD(string newId){
+void updateHEAD(const string& newId){
     ofstream headFile(".minigit/HEAD.txt");
     headFile << newId;
     headFile.close();
