@@ -1,4 +1,4 @@
-int main() {
+/* int main() {
     ensureFoldersExist();
 
     string command;
@@ -38,7 +38,7 @@ int main() {
         else {
             cout << "Unknown command." << endl;
         }
-        cout << "mingit > ";
+        cout << "mingit > "; */
     }
 
     return 0;
