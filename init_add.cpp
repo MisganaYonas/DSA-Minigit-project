@@ -1,5 +1,9 @@
 
-#include "minigit.h"
+//#include "minigit.h"
+#include "init_add.h"
+#include "Branching_and_checkout.h"
+#include "commit.h"
+#include "merge.h"
 
 using namespace std;
 
@@ -13,14 +17,21 @@ void init() {
     filesystem::create_directory(".minigit");
     filesystem::create_directory(".minigit/objects");
     filesystem::create_directory(".minigit/commits");
+    filesystem::create_directory(".minigit/branches"); // Add this line
 
-    ofstream headFile(".minigit/head.txt");
+    ofstream headFile(".minigit/HEAD.txt");
     if (headFile.is_open()) {
         headFile << "NULL";
         headFile.close();
         cout << "MiniGit is initialized." << endl;
     } else {
-        cerr << "Failed to create head.txt" << endl;
+        cerr << "Failed to create HEAD.txt" << endl;
+    }
+
+// Create main branch file with no commit (empty)
+    ofstream mainBranchFile(".minigit/branches/main.txt");
+    if (mainBranchFile.is_open()) {
+        mainBranchFile.close();
     }
 }
 

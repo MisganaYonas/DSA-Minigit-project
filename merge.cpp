@@ -1,5 +1,9 @@
 
-#include "minigit.h"
+#include "init_add.h"
+#include "Branching_and_checkout.h"
+#include "commit.h"
+#include "merge.h"
+
 
 namespace fs = std::filesystem;
 

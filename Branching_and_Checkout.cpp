@@ -1,6 +1,8 @@
-#ifndef MINIGIT_H
-#define MINIGIT_H
 
+#include "init_add.h"
+#include "Branching_and_checkout.h"
+#include "commit.h"
+#include "merge.h"
 #include <iostream>
 #include <fstream>
 #include <sstream>
