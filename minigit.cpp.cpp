@@ -1,7 +1,7 @@
-
-#include "minigit.h"
-
-
+#include <iostream>
+#include <fstream>
+#include <ctime>
+#include <string>
 using namespace std;
 
 //writing function to get the current date and time as a string
