@@ -7,6 +7,7 @@
 #include <queue>
 #include <filesystem>
 #include <ctime>
+#include "minigit.h"
 
 namespace fs = std::filesystem;
 
