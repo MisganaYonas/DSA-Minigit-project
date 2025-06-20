@@ -2,6 +2,7 @@
 #include <fstream>      // for file writing
 #include <filesystem>   // for creating folders and checking file existence
 #include <string>       // for using strings
+#include "minigit.h"
 
 using namespace std;
 
