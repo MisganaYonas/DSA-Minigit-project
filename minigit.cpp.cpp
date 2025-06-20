@@ -75,7 +75,7 @@ void showLog(){
     }
 }
 
-int main (){
+/* int main (){
     string command;
     cout<<"minGit > ";
     while(cin >> command){
@@ -93,7 +93,7 @@ int main (){
     cout << "mingit > " ;
     } 
     return 0;
-}
+} */
 
 
 
