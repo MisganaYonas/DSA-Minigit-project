@@ -54,7 +54,7 @@ void stageFile(const string& filename, const string& hash) {
     stageFile.close();
 }
 
-int main() {
+/* int main() {
     init(); // run the setup
 
     // 1. Create a file (for testing only)
@@ -95,5 +95,5 @@ int main() {
     stage.close();
 
     return 0;
-}
+} */
 
