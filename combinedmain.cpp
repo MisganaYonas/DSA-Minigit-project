@@ -1,6 +1,5 @@
 
 #include "minigit.h"
-using namespace std;
 namespace fs = std::filesystem;
 void ensureFoldersExist(); // Ensures .minigit folders exist
 void init(); // Initializes .minigit structure
