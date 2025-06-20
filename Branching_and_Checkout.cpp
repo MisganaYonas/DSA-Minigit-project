@@ -1,6 +1,3 @@
-#include <iostream>
-#include <fstream>
-#include <string>
 #include "minigit.h"  // Add this to get function declarations
 using namespace std;
 
