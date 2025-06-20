@@ -2,6 +2,9 @@
 #include <fstream>
 #include <ctime>
 #include <string>
+#include "minigit.h"
+
+
 using namespace std;
 
 //writing function to get the current date and time as a string
