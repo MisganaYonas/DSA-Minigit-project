@@ -38,8 +38,8 @@
         else {
             cout << "Unknown command." << endl;
         }
-        cout << "mingit > "; */
+        cout << "mingit > "; 
     }
 
     return 0;
-}
+} */
